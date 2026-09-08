@@ -1,0 +1,35 @@
+@model PublicRegistrationViewModel
+@{
+    ViewData["Title"] = "Register - " + Model.EventTitle;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="bg-white p-4 rounded shadow-sm">
+            <h3>Register for "@Model.EventTitle"</h3>
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-danger">@Model.ErrorMessage</div>
+            }
+            <form asp-action="Register" method="post">
+                <input type="hidden" asp-for="EventId" />
+                <input type="hidden" asp-for="EventTitle" />
+                <div class="mb-3">
+                    <label asp-for="ParticipantName" class="form-label"></label>
+                    <input asp-for="ParticipantName" class="form-control" />
+                    <span asp-validation-for="ParticipantName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ParticipantEmail" class="form-label"></label>
+                    <input asp-for="ParticipantEmail" class="form-control" />
+                    <span asp-validation-for="ParticipantEmail" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ParticipantPhone" class="form-label"></label>
+                    <input asp-for="ParticipantPhone" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary">Confirm Registration</button>
+            </form>
+        </div>
+    </div>
+</div>

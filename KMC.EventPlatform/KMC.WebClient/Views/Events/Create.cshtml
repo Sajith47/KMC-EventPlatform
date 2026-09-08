@@ -1,0 +1,13 @@
+@model EventFormViewModel
+@{
+    ViewData["Title"] = "Create Event";
+}
+
+<h2 class="mb-4">Create Event</h2>
+<div class="bg-white p-4 rounded shadow-sm">
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+    <partial name="_EventForm" model="Model" />
+</div>

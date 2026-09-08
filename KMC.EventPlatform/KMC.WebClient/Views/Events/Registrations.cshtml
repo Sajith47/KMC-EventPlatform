@@ -1,0 +1,41 @@
+@model List<RegistrationDto>
+@{
+    var ev = (EventDto)ViewBag.Event;
+    ViewData["Title"] = "Registrants - " + ev.Title;
+}
+
+<h2 class="mb-1">Registrants for "@ev.Title"</h2>
+<p class="text-muted mb-4">@ev.EventDate.ToString("dd MMM yyyy, h:mm tt") &middot; @ev.Venue</p>
+
+@if (!Model.Any())
+{
+    <p class="text-muted">No one has registered for this event yet.</p>
+}
+else
+{
+    <div class="table-responsive bg-white rounded shadow-sm">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Registered At</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.ParticipantName</td>
+                        <td>@r.ParticipantEmail</td>
+                        <td>@r.ParticipantPhone</td>
+                        <td>@r.RegisteredAt.ToString("dd MMM yyyy, h:mm tt")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<a class="btn btn-outline-secondary mt-3" asp-action="Index">Back to dashboard</a>

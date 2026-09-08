@@ -1,0 +1,14 @@
+@model PublicRegistrationViewModel
+@{
+    ViewData["Title"] = "Registration Confirmed";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="bg-white p-4 rounded shadow-sm text-center">
+            <h3 class="text-success">🎉 @Model.SuccessMessage</h3>
+            <p class="text-muted">You're registered for <strong>@Model.EventTitle</strong>.</p>
+            <a class="btn btn-outline-primary" asp-controller="Home" asp-action="Search">Browse more events</a>
+        </div>
+    </div>
+</div>

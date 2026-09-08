@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sajith\\Desktop\\kmc\\KMC.EventPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000000-0000-0000-0000-000000000002}|KMC.EventManagementService\\KMC.EventManagementService.csproj|c:\\users\\sajith\\desktop\\kmc\\kmc.eventplatform\\kmc.eventmanagementservice\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000000-0000-0000-0000-000000000002}|KMC.EventManagementService\\KMC.EventManagementService.csproj|solutionrelative:kmc.eventmanagementservice\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1000000-0000-0000-0000-000000000004}|KMC.EventSearchService\\KMC.EventSearchService.csproj|c:\\users\\sajith\\desktop\\kmc\\kmc.eventplatform\\kmc.eventsearchservice\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1000000-0000-0000-0000-000000000004}|KMC.EventSearchService\\KMC.EventSearchService.csproj|solutionrelative:kmc.eventsearchservice\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sajith\\Desktop\\kmc\\KMC.EventPlatform\\KMC.EventManagementService\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "KMC.EventManagementService\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Sajith\\Desktop\\kmc\\KMC.EventPlatform\\KMC.EventManagementService\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "KMC.EventManagementService\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:35:20.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\Sajith\\Desktop\\kmc\\KMC.EventPlatform\\KMC.EventSearchService\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "KMC.EventSearchService\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\Sajith\\Desktop\\kmc\\KMC.EventPlatform\\KMC.EventSearchService\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "KMC.EventSearchService\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:28:29.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
